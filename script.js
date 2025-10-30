@@ -1,3 +1,14 @@
+const nama = (prompt("Masukkan nama:") || "").trim().toLowerCase();
+
+if (nama === "nesya") {
+    alert("Selamat datang, Nesya!");
+} else {
+    alert("Kamu bukan orangnya");
+    location.replace("https://google.com");
+}
+
+
+
 function resizeCanvases() {
     const canvases = document.querySelectorAll("canvas");
         canvases.forEach((c) => {
